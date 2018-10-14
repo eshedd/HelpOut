@@ -1,0 +1,13 @@
+#questions{
+    text-align:center;
+}
+#title{
+    text-align: right;
+}
+body{
+    padding:30px;
+}
+#statement{
+    font-size:12px;
+    text-align:center;
+}
