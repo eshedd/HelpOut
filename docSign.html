@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Donater sign in</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        form {
+            border: 3px solid #f1f1f1;
+        }
+
+        input[type=text],
+        input[type=password] {
+            width: 100%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            display: inline-block;
+            border: 1px solid #ccc;
+            box-sizing: border-box;
+        }
+
+        button {
+            background-color: #4CAF50;
+            color: black;
+            padding: 14px 20px;
+            margin: 8px 0;
+            border: none;
+            cursor: pointer;
+            width: 100%;
+        }
+
+        button:hover {
+            opacity: 0.8;
+        }
+
+        .container {
+            padding: 16px;
+        }
+
+        body {
+            background-color: #A3FF7A;
+        }
+    </style>
+</head>
+
+<body>
+    <font face="palatino">
+        <h2>Donater Sign In</h2>
+    </font>
+
+    <div class="container">
+        <label for="uname">
+            <b>Username</b>
+        </label>
+        <input type="text" placeholder="Enter Username" name="uname" required>
+        <label for="psw">
+            <b>Password</b>
+        </label>
+        <input type="password" placeholder="Enter Password" name="psw" required>
+
+        <label for="email">
+            <b>Email</b>
+        </label>
+        <input type="text" placeholder="Enter Email" name="email" required>
+
+        <label for="zip">
+            <b>Zip Code</b>
+        </label>
+        <input type="text" placeholder="Enter Zip Code" name="zip" required>
+
+        <label for="number">
+            <b>Phone Number</b>
+        </label>
+        <input type="text" placeholder="Enter Phone Number" name="number" required>
+
+        <button type="submit">Sign in</button>
+        <label>
+            <input type="checkbox" checked="checked" name="remember"> Remember me
+        </label>
+    </div>
+    </form>
+</body>
+
+</html>
