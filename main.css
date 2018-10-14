@@ -12,6 +12,10 @@ body {
 h1 {
     font-family: Palatino;
 }
+#reg{
+    background-color:red;
+    padding:10px;
+}
 .content {
     display: flex;
     background-color: #AE9A3B;
@@ -46,7 +50,9 @@ h1 {
 .donate a{
     text-decoration: none;
     color: black;
+
 }
 a:hover{
     color: lightgreen;
 }
+
