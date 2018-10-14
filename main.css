@@ -12,6 +12,10 @@ body {
 h1 {
     font-family: Palatino;
 }
+#reg{
+    background-color:red;
+    padding:10px;
+}
 .content {
     display: flex;
     background-color: #AE9A3B;
@@ -37,6 +41,11 @@ h1 {
 .pledge a {
     text-decoration: none;
     color: black;
+    font-size: 30px;
+}
+.register {
+    margin-top: 80px;
+    background-color: #80A237;
 }
 .legend {
     display: flex;
@@ -46,7 +55,9 @@ h1 {
 .donate a{
     text-decoration: none;
     color: black;
+
 }
 a:hover{
     color: lightgreen;
 }
+
