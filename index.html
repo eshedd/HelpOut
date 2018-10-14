@@ -1,62 +1,35 @@
-<!DOCTYPE html>
+<!DOCTYPE>
 <html>
 
 <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Volunteer</title>
+    <link rel="stylesheet" href="main.css">
 </head>
-<style>
-    .button-container {
-        display: flex;
-        justify-content: center;
-    }
 
-    button {
-        background-color: #4CAF50;
-        color: black;
-        padding: 25px;
-        margin: 10px;
-        border: none;
-        cursor: pointer;
-        width: 100%;
-        hover-on: blue;
-    }
-
-    button:hover {
-        background: #383;
-    }
-
-    body {
-        background-color: #A3FF7A;
-    }
-</style>
-
-<body>
-    <center>
-        <h1>
-            <font face="palatino" size="10">How do you want to help?</font>
-        </h1>
-    </center>
-    <div class="button-container">
-        <a href="./volSign.html">
-            <button type="submit">
-                <p>
-                    <font face="Lucida Sans Unicode" size="7">Volunteer</font>
-                </p>
-            </button>
-        </a>
-        <a href="./volSign.html">
-            <button type="submit">
-                <p>
-                    <font face="Lucida Sans Unicode" size="7">Donater</font>
-                </p>
-            </button>
-        </a>
-        <a href="./volSign.html">
-            <button type="submit">
-                <p>
-                    <font face="Lucida Sans Unicode" size="7">Kitchen</font>
-                </p>
-            </button>
+<body background-color="#FFF1AB">
+    <div class="pagetop">
+        <img height="60px" width="60px" src="./helpOutLogo.png" alt="logo">
+        <h1 class="header">Volunteering</h1>
+    </div>
+    <div class="legend">
+        <img height="20px" width="90px" src="./greenLegend.png">
+        <img height="20px" width="90px" src="./yellowLegend.png">
+        <img height="20px" width="90px" src="./redLegend.png">
+    </div>
+    <div class="content">
+        <iframe width="75%" height="650px" src="https://www.google.com/maps/d/u/1/embed?mid=1GudqZp26fdhgTqMYqZ64YO4ucSBAYwVZ" width="640"
+            height="480"></iframe>
+        <div class="pledge">
+            <h1>Accept the Challenge</h1>
+            <p>Are you ready to help? Provide your phone number to be entered into the list of volunteers on-call. Depending
+                on the amount of times you respond to an urgent text about a lack of volunteers at a kitchen, you rise up
+                the leaderboards.</p>
+                <input type="text" placeholder="Phone Number" name="number" required>
+        </div>
+    </div>
+    <div class="donate">
+        <a href="Link">
+            <h1>Click to Make a Donation</h1>
         </a>
     </div>
 </body>
